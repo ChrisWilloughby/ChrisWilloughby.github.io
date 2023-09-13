@@ -1,11 +1,13 @@
 {
+  "homepage": "https://github.com/ChrisWilloughby/ChrisWilloughby.github.io",
   "name": "vite-react-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --force",
-    "build": "vite build",
+    "predeploy": "yarn run build",
+    "build": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -24,6 +26,7 @@
     "@mui/styled-engine-sc": "^5.12.0",
     "@mui/styles": "^5.14.3",
     "axios": "^1.4.0",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
