@@ -1,0 +1,21 @@
+
+  .title {
+    color: #FFF;
+  }
+
+  .subtitle {
+    color: #BDBDBD;
+    margin-bottom: 3rem;
+  }
+
+  .typedContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100VW;
+    text-align: center;
+    z-index: 1;
+  
+  }
+

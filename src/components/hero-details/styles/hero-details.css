@@ -1,0 +1,19 @@
+
+  HR-root {
+    /* background: 'none', */
+    background-color: 'none',
+  }
+
+    HR-root.MuiBottomNavigationAction-root {
+      min-height: 0;
+      max-width: 50;
+    }
+
+    HR-root.MuiSvgIcon-root {
+      fill: #C5CAE9;
+    }
+    HR-root.MuiSvgIcon-root:hover {
+        fill: white;
+        font-size: 1.8rem;
+    }
+   
