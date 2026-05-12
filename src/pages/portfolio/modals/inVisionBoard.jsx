@@ -56,7 +56,7 @@ export default function InVisionBRD() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/invision.png'
+                image='/images/portfolio/invision.png'
                 alt='adp Developer Portal'
                 sx={{zIndex:-1, 
                     opacity:.5,

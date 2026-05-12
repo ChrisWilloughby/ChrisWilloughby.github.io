@@ -59,7 +59,7 @@ export default function BlockCodeMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/codeBlock.png'
+                image='/images/portfolio/codeBlock.png'
                 alt='Code Playground Example'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -93,7 +93,7 @@ export default function BlockCodeMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/codeBlock.png'
+                            src='/images/portfolio/codeBlock.png'
                             alt="Code Playground Example"
                             loading="lazy"
                         />

@@ -59,7 +59,7 @@ export default function YTPlayerMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/yt-Player.jpg'
+                image='/images/portfolio/yt-Player.jpg'
                 alt='Youtube Player'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -93,7 +93,7 @@ export default function YTPlayerMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/yt-Player.jpg'
+                            src='/images/portfolio/yt-Player.jpg'
                             alt="Youtube Player"
                             loading="lazy"
                         />

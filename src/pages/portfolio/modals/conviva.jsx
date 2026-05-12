@@ -59,7 +59,7 @@ export default function ConvivaMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/convivaThumb.png'
+                image='/images/portfolio/convivaThumb.png'
                 alt='Convia Developer Portal'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -93,7 +93,7 @@ export default function ConvivaMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/conviva.png'
+                            src='/images/portfolio/conviva.png'
                             alt="Convia Developer Portal Example"
                             loading="lazy"
                         />

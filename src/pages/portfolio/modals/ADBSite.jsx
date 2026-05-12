@@ -58,7 +58,7 @@ export default function ADPMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/adb.png'
+                image='/images/portfolio/adb.png'
                 alt='adp Developer Portal'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -92,7 +92,7 @@ export default function ADPMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/adbSite.png'
+                            src='/images/portfolio/adbSite.png'
                             alt="adp Developer Portal Example"
                             loading="lazy"
                         />

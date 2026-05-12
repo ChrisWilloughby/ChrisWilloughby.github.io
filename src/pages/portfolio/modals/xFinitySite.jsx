@@ -58,7 +58,7 @@ export default function XfinityMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/comcastThumb.png'
+                image='/images/portfolio/comcastThumb.png'
                 alt='Comcast Incubator Portal'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -94,7 +94,7 @@ export default function XfinityMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/Comcastincubator.png'
+                            src='/images/portfolio/Comcastincubator.png'
                             alt="Comcast Incubator Portal Example"
                             loading="lazy"
                         />

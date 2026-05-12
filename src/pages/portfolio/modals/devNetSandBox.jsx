@@ -61,7 +61,7 @@ export default function DevNetMod() {
                     <CardMedia
                         component="img"
                         height="290"
-                        image='public/images/portfolio/devnetThumb.png'
+                        image='/images/portfolio/devnetThumb.png'
                         alt='Devnet Sandbox Portal'
                         sx={{zIndex:-1, 
                         opacity:.5,
@@ -91,7 +91,7 @@ export default function DevNetMod() {
                         {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                             <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                             <img
-                                src='public/images/portfolio/devNet.png'
+                                src='/images/portfolio/devNet.png'
                                 alt="Devnet Sandbox Portal Example"
                                 loading="lazy"
                             />

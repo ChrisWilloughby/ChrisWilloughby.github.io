@@ -59,7 +59,7 @@ export default function JabbraMod() {
                     <CardMedia
                         component="img"
                         height="290"
-                        image='public/images/portfolio/jabraThumb.png'
+                        image='/images/portfolio/jabraThumb.png'
                         alt='Jabra Developer Portal'
                         sx={{zIndex:-1, 
                             opacity:.5,
@@ -93,7 +93,7 @@ export default function JabbraMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/jabbra.png'
+                            src='/images/portfolio/jabbra.png'
                             alt="Jabra Developer Portal Example"
                             loading="lazy"
                         />

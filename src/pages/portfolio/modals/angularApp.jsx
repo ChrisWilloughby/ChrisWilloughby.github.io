@@ -59,7 +59,7 @@ export default function AngularAppMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/AngularApp.jpg'
+                image='/images/portfolio/AngularApp.jpg'
                 alt='Angular Card Builder'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -93,7 +93,7 @@ export default function AngularAppMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/AngularApp.jpg'
+                            src='/images/portfolio/AngularApp.jpg'
                             alt="Angular Card Builder"
                             loading="lazy"
                         />

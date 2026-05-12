@@ -45,7 +45,7 @@ export default function PaddleGameMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/pongIcon.jpg'
+                image='/images/portfolio/pongIcon.jpg'
                 alt='JS PADDLE GAME'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -79,7 +79,7 @@ export default function PaddleGameMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', scroll:'auto'}}>
                         <img
-                            src='public/images/portfolio/pongGame.jpg'
+                            src='/images/portfolio/pongGame.jpg'
                             alt="JS PADDLE GAME"
                             loading="lazy"
                         />

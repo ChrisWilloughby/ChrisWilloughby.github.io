@@ -60,7 +60,7 @@ export default function TourDeCiscoMod() {
                 <CardMedia
                 component="img"
                 height="290"
-                image='public/images/portfolio/cycle.jpg'
+                image='/images/portfolio/cycle.jpg'
                 alt='Tour de Cisco'
                 sx={{zIndex:-1, 
                     opacity:.5,
@@ -93,7 +93,7 @@ export default function TourDeCiscoMod() {
                     {/* <ImageList sx={{ width:'100%', height:'60vh'}}> */}
                         <ImageListItem sx={{ width:'100%', height:'60vh', scroll:'auto', position:'center'}}>
                         <img
-                            src='public/images/portfolio/cycle.jpg'
+                            src='/images/portfolio/cycle.jpg'
                             alt="Tour de Cisco"
                             loading="lazy"
                         />
